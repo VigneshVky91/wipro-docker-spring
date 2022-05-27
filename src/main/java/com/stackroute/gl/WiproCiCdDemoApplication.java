@@ -13,6 +13,11 @@ public class WiproCiCdDemoApplication {
 	public String sayHello() {
 		return "Hello world...Welcome to Wipro....!!!";
 	}
+	
+	@GetMapping("/")
+	public String newMessage(){
+		return "New message";	
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(WiproCiCdDemoApplication.class, args);
