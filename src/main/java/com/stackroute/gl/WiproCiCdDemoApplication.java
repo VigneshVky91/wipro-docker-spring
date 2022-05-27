@@ -11,7 +11,7 @@ public class WiproCiCdDemoApplication {
 
 	@GetMapping("/message")
 	public String sayHello() {
-		return "Hello world...";
+		return "Hello world...Welcome to Wipro....!!!";
 	}
 
 	public static void main(String[] args) {
